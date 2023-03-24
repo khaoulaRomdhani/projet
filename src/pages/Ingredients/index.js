@@ -1,4 +1,4 @@
-import react from 'react';
+
 import React, { useState } from "react";
 import './style.css';
 /*import {getStylesFromString} from './pages/FonctionStyle.js';*/

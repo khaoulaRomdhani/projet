@@ -8,7 +8,6 @@ import Ingredients from "./pages/Ingredients";
 function App() {
   return (
     <div className="App">
-      <p>jdskjsdueduew</p>
       <AproposDeNous/>
    <Contact/>  
    <Admin/>

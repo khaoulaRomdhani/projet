@@ -1,0 +1,69 @@
+.global{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.global .indice1{
+    color:#000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+  }
+.global .indice1 h2{
+    margin-bottom: 20px;
+  color:#111;
+}
+.global span{
+    color: #fb911f;
+    font-size: 1.5em;
+    font-weight: 700px;
+}
+.global .indice2{
+    color:#000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+  }
+.global .indice2 h2{
+    margin-bottom: 20px;
+  color:#111;
+}
+
+.indice1{
+    padding: 10px 20px;
+    margin-top: -10px;/*traj3 lbutton fi nafs ligne m3a acceuill*/
+    text-transform: uppercase;/*traj3 login en majuscule*/
+
+
+}
+/*l'effet de couleur lorsque on clique sur login*/
+.indice1:hover{
+  background:aqua;
+    transition: ease-out;
+}
+.indice2{
+    padding: 10px 20px;
+    margin-top: -10px;/*traj3 lbutton fi nafs ligne m3a acceuill*/
+    text-transform: uppercase;/*traj3 login en majuscule*/
+ 
+
+}
+/*l'effet de couleur lorsque on clique sur login*/
+.indice2:hover{
+   background:aqua;
+    transition: ease-out;
+}
+/*inscription li ta7t se connecter*/
+.khaoula{
+    padding: 5px 20px;
+    margin-top: -10px;/*traj3 lbutton fi nafs ligne m3a acceuill*/
+    text-transform: uppercase;/*traj3 login en majuscule*/
+
+
+}
+/*l'effet de couleur lorsque on clique sur login*/
+.khaoula:hover{
+  background:aliceblue;
+    transition: ease-out;
+}
