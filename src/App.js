@@ -1,3 +1,4 @@
+import Navbar from "./pages/Navbar";
 import AproposDeNous from "./pages/AproposDeNous";
 import Admin from "./pages/Admin";
 import Contact from "./pages/Contact";
@@ -8,6 +9,7 @@ import Ingredients from "./pages/Ingredients";
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <AproposDeNous/>
    <Contact/>  
    <Admin/>
