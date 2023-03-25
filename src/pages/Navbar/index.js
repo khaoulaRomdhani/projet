@@ -1,44 +1,45 @@
-import React from "react";
-import "./style.css";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-// eslint-disable-next-line import/no-anonymous-default-export
-export default function () {
+function ColorSchemesExample() {
   return (
-    <div>
-      <header>
-        <div className="menutoggle"></div>
-        <ul>
-          <li>
-            <a href="#banniere">acceuil</a>
-          </li>
-          <li>
-            <a href="#acceuil">menu</a>
-          </li>
-          <li>
-            <a href="#apropos">a propos de nous</a>
-          </li>
-          <li>
-            <a href="#contact">contact</a>
-          </li>
-          <li>
-            <a href="#inscris" className="btn-login">
-              inscription
-            </a>
-          </li>
-        </ul>
-      </header>
-      <section className="banniere" id="banniere">
-        <div className="contenu">
-          <h2>que des plats délicieux</h2>
-          <p>tous nos conseils pour un faire de bon plat</p>
-          <a href="#login" className="btn1">
-            se connecter
-          </a>
-          <a href="#inscris" className="khaoula">
-            inscription
-          </a>
-        </div>
-      </section>
-    </div>
+    <>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      <br />
+      <Navbar bg="primary" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+
+      <br />
+      <Navbar bg="light" variant="light">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
   );
 }
+
+export default ColorSchemesExample;
