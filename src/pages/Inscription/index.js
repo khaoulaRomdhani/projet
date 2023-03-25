@@ -1,10 +1,9 @@
-import react from 'react';
-import './style.css';
-export default function Inscription(){
-    //javascript
+import React from "react";
+import "./style.css";
+export default function Inscription() {
+  //javascript
 
-    return(
-       
+  return (
     <div>
       <section className="inscris" id="inscris">
         <div className="ption">
@@ -63,7 +62,12 @@ export default function Inscription(){
                 </tr>
                 <tr>
                   <td colSpan="2">
-                    <input type="submit" id="submit" name="" value="S'inscrire" />
+                    <input
+                      type="submit"
+                      id="submit"
+                      name=""
+                      value="S'inscrire"
+                    />
                     <br />
                     <br />
                   </td>
@@ -71,15 +75,11 @@ export default function Inscription(){
               </tbody>
             </table>
             <p>
-              vous avez déja un compte ?
-              <a href="#login" onClick="toggleMenu();">
-                {" "}
-                se connecter
-              </a>
+              vous avez déja un compte ?<a href="#login"> se connecter</a>
             </p>
           </form>
         </fieldset>
       </section>
     </div>
-    );
+  );
 }
